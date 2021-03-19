@@ -22,7 +22,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 50%;
+    width: 60%;
     height: 100vh;
 }
 
@@ -39,8 +39,8 @@ body {
 
 .instagram-continue {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: center; /* horizontal */
+    justify-content: space-around; /* vertical */
     flex-direction: column;
     width: 50%;
     height: 40rem;
@@ -51,11 +51,11 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: #ffffffff;
+    background-color: #ffffff;
     width: 100%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
-}
+}   
 
 .group:nth-child(1) {
     min-height: 19rem;
@@ -94,7 +94,7 @@ color: rgb(160,160,160);
 }
 
 .link-blue {
-    color: #0095f6
+    color: #0095f6;
 }
 
 .get-the-app {
